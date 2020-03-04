@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[TipoAlimentos]
 (
 	[IDTipoAlimentos] INT NOT NULL PRIMARY KEY, 
-    [Descricao] NVARCHAR(50) NULL
+    [Descricao] NVARCHAR(50) NOT NULL
 )

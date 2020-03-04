@@ -6,7 +6,7 @@
     <Name>BeHealthy.database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{c7fb52ec-7c88-4c23-bca1-88e7ff274144}</ProjectGuid>
+    <ProjectGuid>{94f92666-7b63-4a30-a867-9f79d9e7d138}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -56,5 +56,11 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Table1.sql" />
+    <Build Include="Alimentos.sql" />
+    <Build Include="TipoAlimentos.sql" />
+    <Build Include="Utilizadores.sql" />
   </ItemGroup>
 </Project>

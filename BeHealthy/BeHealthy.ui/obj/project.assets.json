@@ -8,24 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Utilizador\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\35191\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilizador\\Desktop\\PortableGit\\BeHealthy\\BeHealthy\\BeHealthy.ui\\BeHealthy.ui.csproj",
+      "projectUniqueName": "C:\\Users\\35191\\Documents\\Git\\BeHealthy\\BeHealthy\\BeHealthy.ui\\BeHealthy.ui.csproj",
       "projectName": "BeHealthy.ui",
-      "projectPath": "C:\\Users\\Utilizador\\Desktop\\PortableGit\\BeHealthy\\BeHealthy\\BeHealthy.ui\\BeHealthy.ui.csproj",
-      "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilizador\\Desktop\\PortableGit\\BeHealthy\\BeHealthy\\BeHealthy.ui\\obj\\",
+      "projectPath": "C:\\Users\\35191\\Documents\\Git\\BeHealthy\\BeHealthy\\BeHealthy.ui\\BeHealthy.ui.csproj",
+      "packagesPath": "C:\\Users\\35191\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\35191\\Documents\\Git\\BeHealthy\\BeHealthy\\BeHealthy.ui\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utilizador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\35191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -48,10 +49,21 @@
     "frameworks": {
       "netcoreapp3.1": {
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

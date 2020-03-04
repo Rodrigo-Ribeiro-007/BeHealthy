@@ -1,0 +1,5 @@
+C:\Users\35191\Documents\Git\BeHealthy\BeHealthy\BeHealthy.database\bin\Debug\BeHealthy.database.dacpac
+C:\Users\35191\Documents\Git\BeHealthy\BeHealthy\BeHealthy.database\bin\Debug\BeHealthy.database.dll
+C:\Users\35191\Documents\Git\BeHealthy\BeHealthy\BeHealthy.database\bin\Debug\BeHealthy.database.pdb
+C:\Users\35191\Documents\Git\BeHealthy\BeHealthy\BeHealthy.database\obj\Debug\BeHealthy.database.dll
+C:\Users\35191\Documents\Git\BeHealthy\BeHealthy\BeHealthy.database\obj\Debug\BeHealthy.database.pdb
